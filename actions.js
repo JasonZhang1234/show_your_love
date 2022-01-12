@@ -19,15 +19,9 @@ const color3 = {
 };
 const points1 = [];
 const points2 = [];
-const Actions = [{
-    lifeTime: 60,
-    texts: [{
-      text: '3',
-      hsla: color1
-    }]
-  },
+const Actions = [
   {
-    lifeTime: 270,
+    lifeTime: 60,
     func: (width, height) => {
       if(!points1.length){
         for(let i=0;i<1200;i++){
@@ -55,7 +49,14 @@ const Actions = [{
     }
   },
   {
-    lifeTime: 270,
+    lifeTime: 90,
+    texts: [{
+      text: '3',
+      hsla: color1
+    }]
+  },
+  {
+    lifeTime: 90,
     texts: [{
       text: '2',
       hsla: color1
@@ -99,7 +100,7 @@ const Actions = [{
   //   }
   // },
   {
-    lifeTime: 270,
+    lifeTime: 90,
     texts: [{
       text: '1',
       hsla: color1
@@ -108,35 +109,27 @@ const Actions = [{
   {
     lifeTime: 270,
     texts: [{
-        text: '庆',
+        text: 'A',
         hsla: color2
       },
       {
-        text: '阳',
+        text: 'u',
         hsla: color2
       },
       {
-        text: '公',
+        text: 'u',
         hsla: color2
       },
       {
-        text: '共',
+        text: 'u',
         hsla: color2
       },
       {
-        text: '交',
+        text: 'i',
         hsla: color2
       },
       {
-        text: '通',
-        hsla: color2
-      },
-      {
-        text: '集',
-        hsla: color2
-      },
-      {
-        text: '团',
+        text: 'i',
         hsla: color2
       },
     ]
